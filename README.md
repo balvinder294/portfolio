@@ -48,10 +48,10 @@ If you’re evaluating this portfolio, the best indicator of fit is whether the 
 
 The site is intentionally lightweight and boring by design.
 
-- **Framework:** Next.js
-- **UI:** Chakra UI / CSS
+- **Framework:** ReactJS
+- **UI:** TailWind / CSS
 - **Language:** TypeScript
-- **Deployment:** Vercel
+- **Deployment:** Vercel/GH Pages
 
 No CMS, no heavy animation libraries, and no unnecessary complexity.
 
@@ -68,12 +68,11 @@ They are meant to:
 
 They are not full case studies or code walkthroughs.
 
+## My Blogging Platforms
+
+- [Tekraze Blog](https://tekraze.com)
+- [Medium Blog](https://erbalvindersingh.medium.com/)
+
 ---
-
-## Local Development
-
-```bash
-np
-
 
 ### Built using Google AI Studio
