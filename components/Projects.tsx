@@ -20,7 +20,8 @@ const Projects: React.FC = () => {
           >
             <div className="h-48 overflow-hidden relative">
               <img 
-                src={`https://picsum.photos/seed/${project.id}/800/600`} 
+                src={project.image}
+                // src={`https://picsum.photos/seed/${project.id}/800/600`} 
                 alt={project.title}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-60 group-hover:opacity-100"
               />

@@ -83,7 +83,7 @@ export const PROJECTS: Project[] = [
   {
     id: "p3",
     title: "Face Recognition System",
-    image: "recognition.png",
+    image: "recognition.jpg",
     duration: "244 Days",
     description: "Angular and NestJS based application that identifies individuals by scanning images and storing data in MongoDB.",
     tags: ["NestJS", "Angular", "MongoDB", "Face-api.js"]
