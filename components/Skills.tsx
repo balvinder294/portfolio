@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { SKILLS } from '../constants';
 
 const Skills: React.FC = () => {
-  const categories = ['All', 'Frontend', 'Backend', 'Cloud/DevOps', 'Tools'] as const;
+  const categories = ['All', 'Frontend', 'Backend', 'Cloud/DevOps', 'Tools', 'Security'] as const;
   const [activeCategory, setActiveCategory] = useState<typeof categories[number]>('All');
 
   const filteredSkills = activeCategory === 'All' 

@@ -55,6 +55,11 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <div className="max-w-4xl mx-auto text-center mb-1 mt-16">
+        <h4 className="text-md md:text-md font-bold text-white"><i>I believe good software is quiet, predictable, and easy to maintain.</i></h4>
+        {/* <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full" /> */}
+      </div>
     </div>
   );
 };

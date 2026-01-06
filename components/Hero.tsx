@@ -24,11 +24,11 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 text-center md:text-left space-y-6">
-          <div className="inline-block px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full">
+          {/* <div className="inline-block px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full">
             <span className="text-blue-400 text-sm font-bold tracking-widest uppercase">
               Available for Hire
             </span>
-          </div>
+          </div> */}
           
           <div>
             <h1 className="text-5xl md:text-8xl font-black text-white leading-tight">
@@ -40,7 +40,17 @@ const Hero: React.FC = () => {
           </div>
 
           <p className="text-slate-400 text-lg md:text-xl max-w-xl leading-relaxed">
-            I am a <span className="text-white font-medium">{PERSONAL_INFO.title}</span> with 8+ years of experience crafting high-performance digital experiences.
+            {/* I am a */}
+             <span className="text-white font-medium">{PERSONAL_INFO.title}</span> focused on modernizing
+and stabilizing production systems.
+
+            {/* / who modernize and stabilize production systems. */}
+          </p>
+          <p className="text-slate-400 text-white font-mediumleading-relaxed">
+            I help teams improve performance, reliability,
+and longevity of real-world software.
+
+            {/* Senior Full Stack Developer focused on performance,reliability, and long-lived software. */}
           </p>
           
           <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
@@ -48,7 +58,7 @@ const Hero: React.FC = () => {
               href="#contact" 
               className="group relative px-8 py-4 bg-blue-600 text-white rounded-xl font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-blue-500/25 flex items-center gap-2"
             >
-              Get In Touch
+              Contact
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
@@ -57,8 +67,8 @@ const Hero: React.FC = () => {
               href="#projects" 
               className="px-8 py-4 border border-slate-700 hover:bg-slate-900/50 text-white rounded-xl font-bold transition-all flex items-center gap-2"
             >
-              Recent Works
-            </a>
+              View Projects
+             </a>
           </div>
         </div>
 
@@ -75,7 +85,9 @@ const Hero: React.FC = () => {
               <img 
                 src="hero.jpg" 
                 alt={PERSONAL_INFO.name}
-                className="w-72 h-80 md:w-96 md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-110"
+                // filter: brightness(0.95) contrast(1.05);
+                style={{filter: "brightness(0.95) contrast(1.05)"}}
+                className="w-72 h-80 md:w-96 md:h-[500px] object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rounded-[2rem]"
                 // onError={(e) => {
                 //   // This fallback kicks in if hero.jpg is not found
                 //   (e.target as HTMLImageElement).src = "https://picsum.photos/seed/balvinder_singh/600/800";

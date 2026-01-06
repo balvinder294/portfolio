@@ -13,10 +13,11 @@ export interface Project {
   duration: string;
   description: string;
   tags: string[];
+  image?: string
 }
 
 export interface Skill {
   name: string;
   level: number; // 1-100
-  category: 'Frontend' | 'Backend' | 'Cloud/DevOps' | 'Tools';
+  category: 'Frontend' | 'Backend' | 'Cloud/DevOps' | 'Tools' | 'Security';
 }
